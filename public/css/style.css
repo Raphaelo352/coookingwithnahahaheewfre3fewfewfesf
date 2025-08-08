@@ -1,0 +1,27 @@
+body {
+    background-color: #111827; /* Dunkelgrauer Hintergrund aus Tailwind */
+    color: #f3f4f6; /* Helles Grau für Text */
+}
+.product-card, .vouch-card, .info-box {
+    background-color: #1f2937; /* Etwas helleres Grau für Karten */
+    border: 1px solid #374151;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(99, 102, 241, 0.2), 0 4px 6px -2px rgba(99, 102, 241, 0.1);
+}
+.btn-primary {
+    background-color: #4f46e5;
+    color: white;
+}
+.btn-primary:hover {
+    background-color: #4338ca;
+}
+.btn-discord {
+    background-color: #5865F2;
+    color: white;
+}
+.btn-discord:hover {
+    background-color: #4a56d4;
+}
